@@ -1,0 +1,12 @@
+header{
+    background-image: url(../furnitureImages/headerImage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bgTan{
+    background-color:rgb(220, 184, 137)
+}
+footer{
+    background-color: rgb(213, 184, 149);
+}
