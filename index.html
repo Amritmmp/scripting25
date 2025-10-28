@@ -3,110 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document - Favourite Character</title>
-    <link rel="stylesheet" href="css/fictionalcharacter.css"> 
+    <title>My Bio Page - Amritpal Singh</title>
+
+ <!-- Latest compiled and minified CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--------------------------Google fonts----------------------------------->
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+<!--------------------my custom css--------------------------->
+
+<link href="css/style.css" rel="stylesheet">
+
+<!---- Latest compiled JavaScript---->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!------------------Bootstrap Icons-------------------------->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+
+
 </head>
 <body>
-    
-  <!-- HEADER -->
-  <header>
-    <h1 id="top">Doraemon</h1>
-    <p class="tagline">A robot cat from the 22nd century with endless gadgets and a kind heart.</p>
-    <img src="images/Doreamon_catrobot.jpg" alt="Doreamon portrait" width="160">
-  </header>
+ 
+ <!---------------------Header----------------------->
+ 
+ <header class="hero-section text-center text-white d-flex flex-column justify-content-center align-items-center">
+  <div class="overlay">
+      <h1 class="hero-title text-start"> Welcome to Amrit's World</h1>
+  </div>
+ </header>
+ 
 
-  <!-- NAVIGATION -->
-  <nav aria-label="Main navigation">
-    <ul>
-      <li><a href="#about">About Doraemon</a></li>
-      <li><a href="#personality">Personality & Habits</a></li>
-      <li><a href="#gadgets">Gadgets & Skills</a></li>
-      <li><a href="#friends">Friends & Relationships</a></li>
-      <li><a href="#references">References</a></li>
-    </ul>
+  <!------------------Navigation--------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav">
+        <span class=" navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarnav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Goals">Goals</a>
+          </li>
+        </ul>
+      </div> <!--------------ends collapse-------------------------->
+    </div> <!-----------ends container-------------------->
   </nav>
+  
 
-  <!-- SECTION 1: About -->
-  <section id="about">
-    <h2>About Doraemon</h2>
-    <p>
-      Doraemon is a robot cat from the 22nd century who comes back in the past to help a boy named Nobita Nobi. 
-      He is sent by Nobita's great-great-grandson to transform Nobita's life in the current era so that his 
-      children will have a better future. Doraemon is blue, earless (due to an accident with a machine), and 
-      stores new technology inside a 4D pocket. He travels with Nobita in present-day Tokyo and is a supportive 
-      partner to Nobita's daily problems and activities. By showing so many stories, Doraemon's life consists of 
-      ordinary human emotions and next-generation technology and therefore this cartoon world is both funny and rational.
-    </p>
-    <figure>
-      <img src="images/Doreamon_fictional.jpg" alt="Doreamon sleep" width="400">
-      <figcaption>Doraemon supports Nobita with his gadgets and advice.</figcaption>
-    </figure>
+  <!-----------------------About---------------------------->
+ 
+  <section id="about" class="about-section py-5">
+  <div class="container"> 
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="images/profile.jpg" alt="Amritpal Singh" class="img-fluid square about-img">
+      </div> <!----------ends col-md-4------------>
+      <div class="col-md-8">
+        <div class="about-text-box p-4">
+        <h2 class="text-primary">About Me</h2>
+        <p>Hello! Im <strong>Amritpal Singh</strong>, a passionate and dedicated first-year student in the Multimedia Production program at Lethbridge Polytechnic, having recently moved from India to pursue my studies. </p>
+        <p> With a strong interest in both creativity and technology, I am eager to develop the technical and artistic skills needed to build a successful career in digital media. My ultimate goal is to become a skilled Web Developer, creating clean, responsive, and modern web experiences.</p>
+        <p>I combine design thinking with technical skills to build beautiful interfaces. I enjoy working with HTML, CSS and Bootstrap to bring ideas to outside life.</p>
+        <p>Outside of my studies, I am keen on photography, video-editing, and exploring new software tools-skills I am inspired to learn from my father, a professional photographer.</p>
+        <p> I believe that a blend of digital media expertise and strong programming fundamentals will allow me to bring innovative and impactful projects to life.</p>
+        </div>
+      </div><!--------ends col-md-8----------------------->
+    </div><!------ends row------------------->
+  </div><!--------ends container---------------->
   </section>
 
-  <!-- SECTION 2: Personality -->
-  <section id="personality">
-    <h2>Personality & Habits</h2>
-    <p>
-      Doraemon has a huge but generous, human-like, and strict personality. He constantly tries to give Nobita 
-      good advice despite Nobita's habitual unawareness. Doraemon loves <em>dorayaki</em> (bean cakes) and has 
-      an easily distracted mind when food is involved. He dislikes mice, as they remind him of the accident in 
-      which he lost his ears. Though originally a robot, Doraemon shows very human emotions—he laughs, scolds, 
-      and even gets frightened. Most of the time, his task is to assist Nobita in fixing problems with devices, 
-      but often the gadgets cause more trouble.
-    </p>
-    <ul>
-      <li>Loves dorayaki (bean cakes)</li>
-      <li>Scared of mice</li>
-      <li>Emotional and human-like reactions</li>
-    </ul>
-  </section>
+  <!-----------------Skills------------------------>
 
-  <!-- SECTION 3: Gadgets -->
-  <section id="gadgets">
-    <h2>Gadgets & Skills</h2>
-    <p>
-      The most iconic feature of Doraemon is his 4D pocket containing endless futuristic gadgets. Among his 
-      favorite gadgets are:
-    </p>
-    <ul>
-      <li><strong>Take-copter:</strong> A propeller that lets you fly in the air.</li>
-      <li><strong>Anywhere Door:</strong> A doorway that leads anywhere in the world instantly.</li>
-      <li><strong>Time Machine:</strong> A machine hidden in Nobita's desk drawer that allows time travel.</li>
-    </ul>
-    <p>
-      These gadgets are symbols of imagination, intelligence, and creativity, but must be used wisely. Doraemon 
-      depicts concepts of responsibility and friendship through these devices.
-    </p>
-  </section>
+  <section id="skills" class="py-5">
+    <div class="container text-center">
+    <h2 class="mb-4 text-primary">My Skills</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="skill-box box1 p-4">
+          <h4>Creative Thinking</h4>
+          <p>I enjoy exploring ideas and finding new ways to express stories visually-whether through design, color, or layout concepts.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="skill-box box2 p-4">
+          <h4>Learning Design Tools</h4>
+          <p>I'm currently learning Adobe Photoshop, Illustrator, and premiere pro to understand how profesionals bring visual ideas to life.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="skill-box box3 p-4">
+          <h4>Web and Media Basics</h4>
+          <p>As part of my program, I'm beginning to learn HTML, CSS, and multimedia storytelling-building the foundation for future projects.</p>
+        </div><!-------- ends skill-box---------- -->
+      </div><!------------ ends col----------->
+    </div><!------------ends row----------------->
+  </div><!---------- ends container----- -->
+</section>
 
-  <!-- SECTION 4: Friends -->
-  <section id="friends">
-    <h2>Friends & Relationships</h2>
-    <p>
-      Doraemon is fond of Nobita and acts like an elder brother and caretaker to him. He never fails to rescue 
-      Nobita from school problems, bullies, and other daily issues. Doraemon's closest friends include Shizuka, 
-      Gian, and Suneo, even though there are constant fights with Gian and Suneo. His friendship with Shizuka 
-      resembles that of a father since he helps Nobita pursue her. Despite Nobita's repeated misuse of gadgets, 
-      Doraemon never abandons him. Through these friendships, Doraemon develops loyalty, trust, and deep bonds 
-      that showcase the values of teamwork and care.
-    </p>
-  </section>
 
-  <!-- REFERENCES -->
-  <section id="references">
-    <h2>References</h2>
-    <p>
-      Doraemon profile image — <a href="https://en.wikipedia.org/wiki/Doraemon" target="_blank" rel="noopener noreferrer">Wikipedia</a>
-    </p>
-    <p>
-      About section image — <a href="https://www.google.com/search?q=doraemon+images" target="_blank" rel="noopener noreferrer">Google Images Source</a>
-    </p>
-  </section>
+  <!------------------Goals----------------->
 
-  <!-- FOOTER -->
-  <footer>
-    <p>Created by:Amritpal Singh</p>
-    <p>Official page: <a href="https://en.wikipedia.org/wiki/Doraemon" target="_blank" rel="noopener noreferrer">Doraemon Wikipedia</a></p>
-  </footer>
+  <section id="Goals" class="goals-section py-5">
+  <div class="container">
+    
+    <!-- Center Heading -->
+    <h2 class="text-center mb-5">My Goals</h2>
+    
+    <div class="row align-items-center">
+      
+      <!-- Left Side Text -->
+      <div class="col-md-6">
+        <p>
+          My goal is to grow as a creative multimedia designer and front-end developer by constantly learning new design trends and technologies. 
+          I aim to master modern tools and frameworks like Bootstrap, React, and Adobe Creative Suite to create engaging user experiences.
+        </p>
+        <p>
+          In the next few years, I aspire to work in a professional design studio or tech company where I can collaborate with other talented individuals, 
+          and eventually, start my own creative agency to help brands build their digital presence.
+        </p>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="images/goals.JPG" alt="My Goals" class="img-fluid goals-img">
+      </div>
+    </div><!-------ends row----------->
+  </div><!--------ends container------------>
+</section>
+
+
+  <!-----------------------Footer--------------------------------->
+
+  <!-- Footer Section -->
+<footer id="contact" class="footer-section py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 text-light">Get in Touch</h2>
+
+    <!-- Contact Info -->
+    <p class="mb-2 text-light">
+      <i class="bi bi-envelope-fill"></i>
+      <a href="mailto:amritpalsingh83773@gmail.com" class="footer-link">
+        amritpalsingh83773@gmail.com
+      </a>
+    </p>
+
+    <!-- Social Links -->
+    <div class="social-links my-3">
+      <a href="https:www.instagram.com/i.amriit?igsh=MWFqanM5dDl5b212cw%3D&utm_source=qr target="_blank class="footer-link me-3">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+      <a href="https:www.linkedin.com/in/amritpal-singh-301437374?utm_source=share&utm_campaign=share_viautm_content=profile&utm_medium=ios_app target="_blank" class="footer-link me-3">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="footer-copy mt-4 text-light">
+      © 2025 Amritpal Singh | Designed with Bootstrap 5 & Custom CSS
+    </p>
+
+  </div><!------ends container----->
+</footer><!------ends footer-------->
+
+
 </body>
 </html>
